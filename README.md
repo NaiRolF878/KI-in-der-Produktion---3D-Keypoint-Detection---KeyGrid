@@ -308,9 +308,6 @@ Der Gewichtungsfaktor λ_fps steuert, wie stark die räumliche Verteilung
 
 Im Training wurden beide Gewichte auf den Standardwert `1.0` gesetzt: `--lambda_init_points 1.0` und `--lambda_chamfer 1.0`.
 
-Weitere Details und Diagramme siehe Präsentationsfolien in
-`docs/Praesentation.pdf`. **ToDo: Pfad anpassen**
-
 ---
 
 ## 4. Installation
@@ -537,9 +534,6 @@ sinkt. Dieser Sprung ist **kein Trainingsproblem**, sondern die direkte
 Folge der bewussten Phasenumschaltung – das Modell sieht zum ersten Mal
 überhaupt ein Rekonstruktionssignal.
 
-**ToDo**: Trainingskurven-Grafik (Gesamt-Loss Train/Val sowie
-Chamfer-Komponente, analog zur Präsentation) direkt als Bild hier
-einbinden, z. B.:
 
 ```markdown
 ![Loss-Kurve Train/Val mit Phasenübergang](results/loss_curve_airplane.png)
@@ -556,10 +550,6 @@ einbinden, z. B.:
 - Out-of-Distribution-Test (Modell trainiert auf Airplane, getestet auf Mug):
   deutlich höhere Chamfer Distance (0,035) – siehe Diskussion
   „Problemstellungen"
-
-Ausführliche Ergebnisse, Diagramme und Diskussion: siehe
-`docs/Praesentation.pdf`, Kapitel 4.
-**ToDo**: Pfad anpassen, ggf. Ergebnis-Tabellen/Plots direkt in `results/` ablegen.
 
 ---
 
@@ -783,15 +773,5 @@ einer direkten Paper-Aussage von Key-Grid selbst.
   LICENSE-Datei im Repository verifiziert werden** — das bedeutet nicht
   zwingend, dass keine existiert, sondern nur, dass sie sich nicht
   eindeutig über die durchgeführte Recherche bestätigen ließ.
-  **ToDo: Vor der Abgabe direkt im Repository nachsehen** (Datei `LICENSE`
-  oder `LICENSE.md` im Root-Verzeichnis), und falls vorhanden hier den
-  genauen Lizenztyp eintragen. Ohne erkennbare Lizenz gilt Code
-  standardmäßig als urheberrechtlich geschützt ("all rights reserved");
-  in diesem Fall sollte in Rücksprache mit dem Betreuer geklärt werden,
-  ob die Nutzung für die Studienarbeit dennoch zulässig ist (i. d. R. ja,
-  da Key-Grid selbst "We are committed to releasing the code" im Paper
-  ankündigt, aber explizit prüfen lohnt sich).
-- **Eigener Code (Anpassungen, siehe Abschnitt 5):** ToDo: Lizenz für die
-  eigenen Modifikationen festlegen, sofern das Repository öffentlich
   gestellt wird (z. B. ebenfalls MIT, in Anlehnung an die genutzten
   Abhängigkeiten).
