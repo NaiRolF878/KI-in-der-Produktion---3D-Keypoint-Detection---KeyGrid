@@ -1,0 +1,18 @@
+{
+  "model": "C:\\Users\\xrstu\\Key-Grid\\model\\airplane_v4_k12.pt",
+  "category": "Airplane",
+  "version": "v4_k12",
+  "timestamp": "2026-06-28 21:32:13",
+  "n_test": 154,
+  "n_keypoints": 12,
+  "metrics": {
+    "chamfer_mean": 0.0007314581712012409,
+    "chamfer_std": 0.0006783188392835884,
+    "chamfer_min": 0.00033739907667040825,
+    "chamfer_max": 0.007937971502542496,
+    "keypoint_spread_mean": 0.43588994898192296,
+    "keypoint_spread_std": 0.022509344632829765,
+    "keypoint_consistency": 0.049250528216362,
+    "surface_coverage_mean": 1.0
+  }
+}

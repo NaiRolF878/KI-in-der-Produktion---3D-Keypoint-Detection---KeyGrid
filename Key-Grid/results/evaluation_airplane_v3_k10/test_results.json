@@ -1,0 +1,19 @@
+{
+  "model": "C:\\Users\\xrstu\\Key-Grid\\model\\airplane_v3_k10.pt",
+  "dataset": "C:\\Users\\xrstu\\KeypointNet\\pcds\\02691156",
+  "category": "Airplane",
+  "version": "v3_k10",
+  "timestamp": "2026-06-28 17:39:30",
+  "n_test": 154,
+  "n_keypoints": 10,
+  "metrics": {
+    "chamfer_mean": 0.0006156149017926935,
+    "chamfer_std": 0.0002798674534348714,
+    "chamfer_min": 0.0003228243440389633,
+    "chamfer_max": 0.0017322213388979435,
+    "keypoint_spread_mean": 0.44888446547768335,
+    "keypoint_spread_std": 0.02264349583835521,
+    "keypoint_consistency": 0.05563453212380409,
+    "surface_coverage_mean": 1.0
+  }
+}
